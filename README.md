@@ -1,1 +1,1 @@
-# Pneumonia-Disease-Detection-Using-Chest-X-rays-with-Deep-Learning
+# Pneumonia Disease Detection Using Chest X-rays with Convolutional Neural Network (CNN)
