@@ -50,24 +50,55 @@ Dataset link: https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneum
 
 ## Data Preprocessing
 
-Data preprocessing involves preparing the data for clustering. Steps include:
-
--Handling Missing Values: Check for and address any missing values.
-
--Feature Scaling: Normalize features to ensure they are on the same scale.
-
--Feature Selection: Use relevant features for clustering.
+- Image Resizing: All images were resized to 224x224 pixels to ensure uniformity across the dataset.
+  
+- Normalization: Pixel values were normalized to the range [0, 1] to facilitate faster convergence during training.
+  
+- Data Augmentation: Techniques such as rotation, zooming, and flipping were applied to the training data to improve the model's generalization capability.
 
 
-## Exploratory Data Analysis
+## Model Architecture
 
-EDA helps to understand the data and identify patterns. Key analyses include:
+The model architecture is based on a deep Convolutional Neural Network (CNN), which is designed to automatically and adaptively learn spatial hierarchies of features from input images. The architecture includes:
 
--Distribution Analysis: Examine the distribution of annual income and spending score.
+- Convolutional Layers: For feature extraction.
+  
+- Pooling Layers: For dimensionality reduction.
+  
+- Fully Connected Layers: For classification.
+  
+- Dropout Layers: To prevent overfitting.
 
--Correlation Analysis: Investigate relationships between features.
 
--Visualization: Plot data to identify potential clusters.
+## Model Training
+
+- Loss Function: Categorical cross-entropy was used as the loss function.
+  
+- Optimizer: The Adam optimizer was employed for training.
+  
+- Learning Rate Scheduling: A learning rate scheduler was used to reduce the learning rate dynamically as training progressed.
+  
+- Early Stopping: Implemented to halt training when the validation loss stopped improving, preventing overfitting.
+
+
+ ## Model Evaluation:
+
+- The model's performance was evaluated using metrics such as accuracy, precision, recall, and the F1-score.
+
+- The confusion matrix was analyzed to assess the model's capability in distinguishing between pneumonia-infected and healthy images.
+
+## Results
+
+- Accuracy: The model achieved an accuracy of 96% on the test set.
+
+- Precision: The precision for detecting pneumonia was 99%, reducing the likelihood of false positives.
+
+- Recall: The recall was 94%, indicating the model's effectiveness in identifying true positive cases.
+
+- F1-Score: The F1-score was 97%, reflecting a strong balance between precision and recall.
+
+  
+
 
 
 # Modelling
