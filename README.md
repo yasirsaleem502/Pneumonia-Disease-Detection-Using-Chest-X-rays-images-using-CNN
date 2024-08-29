@@ -23,12 +23,11 @@ This project involves developing a deep-learning model to detect pneumonia from 
 - [Objective](#objective)
 - [Dataset Description](#dataset-description)
 - [Data Preprocessing](#data-preprocessing)
-- [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Modelling](#modelling)
-- [K Means Clustering](#k-means-clustering)
+- [Model Architecture](#model-architecture)
+- [Model Training](#model-training)
+- [Model Evaluation](#model-evaluation)
 - [Model Evaluation](#model-evaluation)
 - [Reasult](#reasult)
-- [Dependencies](#dependencies)
 - [How to Run](#how-to-run)
 
 ## Introduction
@@ -105,19 +104,16 @@ The model architecture is based on a deep Convolutional Neural Network (CNN), wh
 
   
 
-
-
-
-
-
 ## How to Run
 
 To run the project:
 1. Clone this repository.
 2. Install the required dependencies.
-3. Open the Jupyter Notebook and execute the cells to train and evaluate the model.
 
 ```bash
-git clone https://github.com/yasirsaleem502/Customer-Segmentation-with-K-Means-Clustering.git
-cd customer-segmentation
+git clone https://github.com/yasirsaleem502/Pneumonia-Disease-Detection-Using-Chest-X-rays-images-using-CNN.git
+cd Pneumonia-Disease-Detection
 pip install -r requirements.txt
+
+## Contributing
+Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes
