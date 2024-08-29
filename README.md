@@ -9,7 +9,13 @@
 
 ## Project Overview
 
-Customer segmentation is a crucial process for businesses to identify distinct groups within their customer base. This project applies K-Means Clustering, an unsupervised learning algorithm, to segment customers based on their purchasing behaviors and demographic information. The objective is to help businesses understand different customer profiles and tailor their strategies accordingly.
+This project involves developing a deep-learning model to detect pneumonia from chest X-ray images using a Convolutional Neural Network (CNN). Pneumonia is a serious respiratory infection that requires prompt diagnosis and treatment. By leveraging the power of CNNs, this project aims to create an automated tool that assists in the early detection of pneumonia, thereby aiding healthcare professionals in making timely and accurate diagnoses.
+
+## Objectives
+-Develop a convolutional neural network (CNN) to classify chest X-ray images as either pneumonia-infected or healthy.
+
+-Improve diagnostic accuracy and reduce the time required for diagnosis.
+
 
 ## Table of Contents
 
@@ -27,16 +33,7 @@ Customer segmentation is a crucial process for businesses to identify distinct g
 
 ## Introduction
 
-Customer segmentation involves grouping customers with similar characteristics to enable targeted marketing and personalized service. K-Means Clustering is a popular technique for this task, as it partitions data into clusters based on feature similarity. This project demonstrates how to use K-Means Clustering to identify distinct customer segments.
-
-# Objective
-The main objectives of this project are:
-
--Segment Customers: Use K-Means Clustering to divide customers into distinct segments.
-
--Analyze Segments: Understand the characteristics of each segment.
-
--Provide Insights: Offer actionable insights to improve marketing strategies and customer engagement.
+Pneumonia is an inflammatory condition of the lung that primarily affects the air sacs and can be life-threatening if not diagnosed and treated promptly. Chest X-rays are a common diagnostic tool for detecting pneumonia. However, manual interpretation of X-rays requires expertise and can be time-consuming. This project leverages Convolutional Neural Networks (CNNs) to automate the detection of pneumonia from chest X-ray images, providing a reliable and efficient diagnostic tool
 
 ## Dataset Description
 
