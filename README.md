@@ -3,9 +3,16 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8+-green)
 ![Jupyter Notebook](https://img.shields.io/badge/Tools-Jupyter%20Notebook-orange)
-![Scikit-learn](https://img.shields.io/badge/Library-Scikit--learn-blue)
-![Pandas](https://img.shields.io/badge/Library-Pandas-yellow)
-![Matplotlib](https://img.shields.io/badge/Library-Matplotlib-lightblue)
+![TensorFlow](https://img.shields.io/badge/Library-TensorFlow-orange)
+![Deep Learning](https://img.shields.io/badge/Method-Deep%20Learning-blue)
+![Convolutional Neural Network](https://img.shields.io/badge/Architecture-Convolutional%20Neural%20Network-brightgreen)
+![Chest X-rays](https://img.shields.io/badge/Data-Chest%20X--rays-lightblue)
+![Kaggle](https://img.shields.io/badge/Platform-Kaggle-orange)
+![Image Processing](https://img.shields.io/badge/Method-Image%20Processing-brightgreen)
+![PyTorch](https://img.shields.io/badge/Library-PyTorch-red)
+![Computer Vision](https://img.shields.io/badge/Field-Computer%20Vision-brightgreen)
+
+
 
 ## Project Overview
 
@@ -20,7 +27,6 @@ This project involves developing a deep-learning model to detect pneumonia from 
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Objective](#objective)
 - [Dataset Description](#dataset-description)
 - [Data Preprocessing](#data-preprocessing)
 - [Model Architecture](#model-architecture)
@@ -86,7 +92,7 @@ The model architecture is based on a deep Convolutional Neural Network (CNN), wh
 
 - The confusion matrix was analyzed to assess the model's capability in distinguishing between pneumonia-infected and healthy images.
 
-## Results
+## Result
 
 - Accuracy: The model achieved an accuracy of 96% on the test set.
 
