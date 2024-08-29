@@ -37,28 +37,16 @@ Pneumonia is an inflammatory condition of the lung that primarily affects the ai
 
 ## Dataset Description
 
-The data set refers to clients of a wholesale distributor. It includes the annual spending in monetary units (m.u.) on diverse product categories.
+The dataset used in this project is sourced from the Kaggle Pneumonia Detection Dataset. It consists of 5,863 labelled X-ray images, divided into two categories: "Pneumonia" and "Normal".
 
-The dataset for this project can be found on the UCI Machine Learning Repository. For the purposes of this project, the features 'Channel' and 'Region' will be excluded in the analysis — with focus instead on the six product categories recorded for customers.
+Training Set: 4,200 images
+Validation Set: 600 images
+Test Set: 1,063 images
+The dataset is well-suited for binary classification tasks and is pre-split into training, validation, and test sets
 
-Description of Categories
+Acess data source :  https://www.cell.com/cell/fulltext/S0092-8674(18)30154-5
 
--FRESH:                           annual spending (m.u.) on fresh products (Continuous)
-
--MILK:                            annual spending (m.u.) on milk products (Continuous)
-
--GROCERY:                         annual spending (m.u.) on grocery products (Continuous)
-
--FROZEN:                          annual spending (m.u.)on frozen products (Continuous)
-
--DETERGENTS_PAPER:                annual spending (m.u.) on detergents and paper products (Continuous)
-
--DELICATESSEN:                      annual spending (m.u.) on and delicatessen products (Continuous)
-
-
-"A store selling cold cuts, cheeses, and a variety of salads, as well as a selection of unusual or foreign prepared foods."
-
-Dataset link : https://www.kaggle.com/datasets/muhammadyasirsaleem/customer-segmentation-dataset
+Dataset link: https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
 
 ## Data Preprocessing
 
