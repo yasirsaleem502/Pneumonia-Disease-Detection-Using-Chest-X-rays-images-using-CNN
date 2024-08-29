@@ -97,66 +97,17 @@ The model architecture is based on a deep Convolutional Neural Network (CNN), wh
 
 - F1-Score: The F1-score was 97%, reflecting a strong balance between precision and recall.
 
+## Challenges and Solutions
+
+- Model Interpretability: Implemented Grad-CAM (Gradient-weighted Class Activation Mapping) to visualize which areas of the X-ray image the model focused on, helping users understand the model’s decision-making process.
+  
+- Data Imbalance: Addressed the imbalance between pneumonia and normal cases by using data augmentation and a weighted loss function to improve model performance.
+
   
 
 
 
-# Modelling
 
-## K Means Clustering
-K-means clustering is used to partition the data into k clusters. Each cluster represents a group of customers with similar characteristics.
-
-# Model Evaluation
-Evaluating the performance of a K-Means Clustering model involves assessing the quality and effectiveness of the clustering results. Since K-Means is an unsupervised learning algorithm, traditional evaluation metrics like accuracy are not applicable. Instead, we use various techniques to evaluate the clustering results.
-
-Key Evaluation Techniques
-
--**Within-Cluster Sum of Squares (WCSS)**:
-
-The Within-Cluster Sum of Squares measures the total distance between data points and their corresponding cluster centers. A lower WCSS indicates tighter and more distinct clusters.
-
-
--**lbow Method**:
-
-The Elbow Method helps in choosing the optimal number of clusters by plotting WCSS against different values of k. The "elbow" point in the plot indicates the optimal number of clusters.
-
-
--**Silhouette Score**:
-
-The Silhouette Score evaluates how well each data point fits within its cluster compared to other clusters. The score ranges from -1 to 1, with higher values indicating better-defined clusters
-
-
--**Cluster Visualization**:
-
-Visualizing the clusters helps in qualitatively assessing the clustering results. By plotting the clusters, you can visually inspect the separation between different clusters and ensure they are well-formed
-
-# Reasult
-
-After running K-Means Clustering, the dataset is segmented into distinct clusters. Each cluster represents a customer segment with similar spending behaviors and income levels.
-
-## Cluster Analysis
-
-![image](https://github.com/user-attachments/assets/44afad2c-ce06-4ebd-9ae3-139631dc7f55)
-
-red colour are less fresh blue colour are more fres.
-
-
-# Dependencies
-This project requires the following libraries:
-
--Python 3.8+
-
--Jupyter Notebook
-
--Pandas
-
--Scikit-Learn
-
--Seaborn
-
--Matplotlib
-
--NumPy
 
 
 ## How to Run
